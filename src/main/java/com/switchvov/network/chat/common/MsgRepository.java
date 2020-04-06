@@ -1,6 +1,6 @@
 package com.switchvov.network.chat.common;
 
-import com.switchvov.network.chat.protocal.packet.MsgPacket;
+import com.switchvov.network.chat.protocol.packet.MsgPacket;
 
 import java.util.HashMap;
 import java.util.Map;

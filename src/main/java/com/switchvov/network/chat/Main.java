@@ -2,8 +2,8 @@ package com.switchvov.network.chat;
 
 import com.switchvov.network.chat.client.LiClient;
 import com.switchvov.network.chat.common.MsgRepository;
-import com.switchvov.network.chat.protocal.codec.PacketCodeC;
-import com.switchvov.network.chat.protocal.packet.MsgPacket;
+import com.switchvov.network.chat.protocol.codec.PacketCodeC;
+import com.switchvov.network.chat.protocol.packet.MsgPacket;
 import com.switchvov.network.chat.server.ZhangServer;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.bootstrap.ServerBootstrap;

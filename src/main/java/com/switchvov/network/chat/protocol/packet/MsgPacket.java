@@ -1,8 +1,8 @@
-package com.switchvov.network.chat.protocal.packet;
+package com.switchvov.network.chat.protocol.packet;
 
 import lombok.*;
 
-import static com.switchvov.network.chat.protocal.commond.Commond.MSG;
+import static com.switchvov.network.chat.protocol.commond.Command.MSG;
 
 /**
  * @author switch

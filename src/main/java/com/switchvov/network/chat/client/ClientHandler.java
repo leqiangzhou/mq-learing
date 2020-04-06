@@ -2,9 +2,9 @@ package com.switchvov.network.chat.client;
 
 import com.switchvov.network.chat.common.MsgCounter;
 import com.switchvov.network.chat.common.MsgRepository;
-import com.switchvov.network.chat.protocal.codec.PacketCodeC;
-import com.switchvov.network.chat.protocal.packet.MsgPacket;
-import com.switchvov.network.chat.protocal.packet.Packet;
+import com.switchvov.network.chat.protocol.codec.PacketCodeC;
+import com.switchvov.network.chat.protocol.packet.MsgPacket;
+import com.switchvov.network.chat.protocol.packet.Packet;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

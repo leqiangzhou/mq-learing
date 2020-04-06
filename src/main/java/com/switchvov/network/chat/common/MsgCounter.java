@@ -14,7 +14,7 @@ public class MsgCounter {
     private static AtomicInteger counter = new AtomicInteger();
     private static Long startTime;
     private static final Object LOCK = new Object();
-    private static Map<Integer, Long> countTimeMapping = new LinkedHashMap<>(3);
+    private static Map<Integer, Long> countTimeMap = new LinkedHashMap<>(3);
 
     public static void start() {
         if (MsgCounter.startTime == null) {
@@ -34,8 +34,8 @@ public class MsgCounter {
             long endTime = System.currentTimeMillis();
             long time = endTime - startTime;
             System.out.println("遍历" + finishCount + "次，花费:" + time + "ms");
-            countTimeMapping.put(finishCount, time);
-            System.out.println(countTimeMapping);
+            countTimeMap.put(finishCount, time);
+            System.out.println(countTimeMap);
         }
     }
 

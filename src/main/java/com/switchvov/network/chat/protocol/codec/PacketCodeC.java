@@ -1,7 +1,7 @@
-package com.switchvov.network.chat.protocal.codec;
+package com.switchvov.network.chat.protocol.codec;
 
-import com.switchvov.network.chat.protocal.packet.MsgPacket;
-import com.switchvov.network.chat.protocal.packet.Packet;
+import com.switchvov.network.chat.protocol.packet.MsgPacket;
+import com.switchvov.network.chat.protocol.packet.Packet;
 import com.switchvov.network.chat.serializer.Serializer;
 import com.switchvov.network.chat.serializer.impl.JSONSerializer;
 import com.switchvov.network.chat.serializer.impl.ProtoStuffSerializer;
@@ -12,7 +12,7 @@ import io.netty.buffer.ByteBufAllocator;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.switchvov.network.chat.protocal.commond.Commond.MSG;
+import static com.switchvov.network.chat.protocol.commond.Command.MSG;
 
 /**
  * Packet编解码类

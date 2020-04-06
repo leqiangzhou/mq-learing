@@ -1,4 +1,4 @@
-package com.switchvov.network.chat.protocal.packet;
+package com.switchvov.network.chat.protocol.packet;
 
 import lombok.Data;
 
